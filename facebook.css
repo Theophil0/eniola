@@ -1,0 +1,144 @@
+.container{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  .section{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   min-width: 550px ;
+   min-height: 750px;
+    background-color: #f0f2f5;
+}  
+   
+.primary{
+    font-size: 28px;
+    font-weight:100;
+    width: 500px;
+    margin-right: 70px;
+    margin-bottom: 250px;
+}
+h1{
+    color: #1877f2;
+    margin-right: 270px;
+    margin-bottom: 30px;
+    font-weight:750;
+
+}
+span{
+   margin-right: 150px;
+}
+
+
+#facebook{
+    
+    margin-top: -20px;
+   
+}
+
+
+   
+.secondary{
+   
+    height: 350px;
+    width: 400px;
+    margin-bottom: 150px; /* moves up */
+    background-color: #ffffff;
+    border-radius: 6px;
+    
+}
+input[type="text"]{
+    width: 330px; /* fixed width */
+    height:22px;
+    padding: 14px 16px;
+    font-size: 17px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border:1px solid #dddfe2;
+    border-radius: 6px;
+}
+input[type="password"]{
+    width: 330px; /* fixed width */
+    height:22px;
+    padding: 14px 16px;
+    font-size: 17px;
+    background-color:#ffffff;
+    border:1px solid #dddfe2;
+}
+input[type="submit"]{
+    width: 332px; /* fixed width */
+    height:50px;
+    padding: 0px 16px;
+    box-sizing:content-box;
+    border-radius: 6px;
+    background-color: #1877f2;
+    cursor: pointer;
+    border:none;
+    font-weight: bold;
+    color: white; 
+    font-size: 20px;
+}
+.mini{
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 6px;
+    
+}
+#link1{color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+   
+
+
+#link1:hover{
+    text-decoration: underline;
+}
+
+.for{
+    margin-top: -35px;
+}
+.line{ width: 100%;
+    height:1px;
+    background-color: #dadde1;
+    margin-top: 30px;
+}
+.button{
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #42b72a;
+    color: #ffffff;
+    font-size: 17px;
+    height: 48px;
+    padding-left:16px ;
+    padding-right: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-top: 30px; /*moves down */
+}
+a:visited{
+    color:white;
+text-decoration: none;
+}
+a:link{
+    color:white;
+    text-decoration: none;
+}
+a:active{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+    text-decoration: none;
+}
+#create{
+    margin-top: 40px;
+    font-size: 14px;
+   
+}
